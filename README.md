@@ -8,6 +8,7 @@ Leverage all the libraries of Node.JS to create useful devices in minutes with T
 
 Command                                  | Action
 -------------------------------------    | -----------
+`npm install -g t2-cli`                  | Install tessel cli.
 `t2 list`                                | Show the Tessels connected.
 `t2 rename <name>`                       | Change the name of the Tessel connected.
 `t2 wifi -n "<network>" -p "<password>"` | To connect to a new network. **(Wifi radio on Tessel can only connect to 2.4GHz networks)**
