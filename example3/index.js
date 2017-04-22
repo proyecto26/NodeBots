@@ -13,8 +13,8 @@ board.on("ready", function() {
   console.log("Testing...");
 
   var joystick = new five.Joystick({
-    pins: ["B0", "B1"],
-    freq: 500
+    pins: ["B6", "B7"],
+    freq: 1000
   });
 
   joystick.on("change", function() {

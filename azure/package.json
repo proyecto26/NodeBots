@@ -1,5 +1,5 @@
 {
-  "name": "example3",
+  "name": "azure",
   "version": "0.0.0",
   "description": "Tessel project",
   "main": "index.js",
@@ -13,7 +13,9 @@
   "license": "MIT",
   "readme": "A bare bones Tessel 2 blinky script.",
   "dependencies": {
-    "johnny-five": "^0.10.6",
-    "tessel-io": "^0.10.1"
+    "azure-iot-device": "^1.1.10",
+    "azure-iot-device-http": "^1.1.10",
+    "azure-iothub": "^1.1.9",
+    "bluebird": "^3.5.0"
   }
 }
