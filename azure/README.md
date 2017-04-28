@@ -1,3 +1,6 @@
+# Azure and the Internet of Things :)
+  http://slides.com/juandavidnicholls/azure-iot/
+
 # [Azure IoT Suite](https://www.azureiotsuite.com/)
 * Device Connectivity & Management
 * Gateway Edge Intelligence
