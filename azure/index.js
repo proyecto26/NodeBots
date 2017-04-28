@@ -20,7 +20,12 @@ deviceConfig.getDeviceInfo(deviceId).then(function(deviceInfo){
   var connectionString = "HostName=iothubtessel.azure-devices.net;DeviceId=" + deviceId + ";SharedAccessKey=" + deviceInfo.authentication.symmetricKey.primaryKey;
   var client = clientFromConnectionString(connectionString);
   
-  sendMessage(client)
+  tessel.led[2].on();
+  var sendInterval = setInterval(function () {
+    sendMessage(client)
+    tessel.led[2].toggle();
+    tessel.led[3].toggle();
+  }, 2000);
 
 }).catch(function(err){
   console.error(err);
