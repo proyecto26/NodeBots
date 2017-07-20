@@ -19,3 +19,12 @@ Command                                  | Action
 `t2 push index.js`                       | Deploy the code **(Save the code)**.
 `t2 erase`                               | Clear the saved code.
 `t2 ap -n MyTessel`                      | Turn Tessel into a wireless access point **(Create a local network)**.
+
+# Supporting
+I believe in Unicorns 🦄
+Support [me](http://www.paypal.me/jdnichollsc/2), if you do too.
+
+# Happy coding
+Made with <3
+
+<img width="150px" src="http://phaser.azurewebsites.net/assets/nicholls.png" align="right">
