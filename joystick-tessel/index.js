@@ -1,6 +1,7 @@
 // Import the interface to Tessel hardware
 const five = require("johnny-five");
 const Tessel = require("tessel-io");
+const display = require('display-tessel')
 
 // Initialize the Board
 const board = new five.Board({
@@ -18,9 +19,6 @@ board.on("ready", function() {
   });
 
   joystick.on("change", function() {
-    console.log("Joystick");
-    console.log("  x : ", this.x);
-    console.log("  y : ", this.y);
-    console.log("--------------------------------------");
+    display.update(`X=${parseInt(this.x)}`, `Y=${parseInt(this.y)}`)
   });
 });
