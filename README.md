@@ -20,11 +20,19 @@ Command                                  | Action
 `t2 erase`                               | Clear the saved code.
 `t2 ap -n MyTessel`                      | Turn Tessel into a wireless access point **(Create a local network)**.
 
-# Supporting
+## Contributing ✨
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.  
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated** ❤️.  
+You can learn more about how you can contribute to this project in the [contribution guide](https://github.com/proyecto26/NodeBots/blob/master/CONTRIBUTING.md).
+
+# Supporting 🍻
 I believe in Unicorns 🦄
 Support [me](http://www.paypal.me/jdnichollsc/2), if you do too.
 
-# Happy coding
+## License ⚖️
+This repository is available under the [MIT License](https://github.com/proyecto26/NodeBots/blob/master/LICENSE).
+
+# Happy coding 💯
 Made with <3
 
 <img width="150px" src="https://avatars0.githubusercontent.com/u/28855608?s=200&v=4" align="right">
